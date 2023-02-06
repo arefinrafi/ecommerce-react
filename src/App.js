@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 import CompareProduct from './pages/CompareProduct';
 import Contact from './pages/Contact';
 import ForgotPassword from './pages/ForgotPassword';
@@ -33,6 +34,7 @@ function App() {
             <Route path="blogs" element={<Blog />} />
             <Route path="blogs/:id" element={<SingleBlog />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="contact" element={<Contact />} />
             <Route path="compare-product" element={<CompareProduct />} />
             <Route path="wishlist" element={<Wishlist />} />
